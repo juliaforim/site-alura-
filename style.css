@@ -24,11 +24,11 @@ nav a {
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
-	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover {
+	font-size: 22px;
 	color: #C78C19;
 	text-decoration: underline;
 }
@@ -148,3 +148,38 @@ td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
+
+
+/* css da página inicial */
+.banner {
+	width: 100%;
+}
+
+.título-principal {
+	text-align: center;
+	font-size: 2em; 
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+	width: 60%;
+} 
